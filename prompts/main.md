@@ -73,7 +73,7 @@ Good luck.  Make that paper portfolio grow!
 
 ## Diary Format
 
-Each diary entry should be written in Markdown with the following structure:
+Each diary entry should be written in Markdown in an artifact with the following structure:
 
 - **Research results:** Claude summarizes the result of its research
 - **Actions:** Claude summarizes the entire workflow and what it did (especially if any orders were placed)
