@@ -45,7 +45,7 @@ You **must** execute each trading day in the six stages below.  After finishing 
 | 3 | **Run Research**   | Execute the plan: gather quotes, news, fundamentals, sentiment, etc.                                       |
 | 4 | **Trade Plan**     | Use MCP to get latest stock quotes (`get_latest_quotes`) and historical price data (`get_stock_bars`) for potential trades. Analyze this data to decide which orders to place, together with the results from your previous research.
 | 5 | **Execute Orders** | Submit those limit orders via MCP and record order IDs & statuses.                                         |
-| 6 | **Write Diary**    | Write today’s diary entry (Markdown) containing: Summary · Actions · Thinking · Future Plan. Use artifact. |
+| 6 | **Write Diary**    | Write today’s diary entry. See the required diary format below.|
 
 If you elect to take *no trades* today, explain why.  To abort the cycle entirely, clearly state the reason.
 
@@ -68,3 +68,14 @@ Good luck.  Make that paper portfolio grow!
 * **Graduality:** Work your way up slowly to building your portfolio. You want to be able to re-assess each day and not make rash decisions. Don't invest your entire portfolio in one go.
 
 * **No forced action:** It is totally fine to do nothing if you think it's better for your goals. Not every day requires trading activity.
+
+---
+
+## Diary Format
+
+Each diary entry should be written in Markdown with the following structure:
+
+- **Research results:** Claude summarizes the result of its research
+- **Actions:** Claude summarizes the entire workflow and what it did (especially if any orders were placed)
+- **Why:** Claude briefly explains his reasoning for his choice
+- **For the future:** Any future notes or plans that Claude has for the following days
