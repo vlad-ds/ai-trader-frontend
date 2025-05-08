@@ -66,7 +66,7 @@ def parse_diary_content(diary_content):
 
 # Set page config first before any other Streamlit commands
 st.set_page_config(
-    page_title="AI Trader Agents",
+    page_title="MCP Trader League",
     layout="centered",
     initial_sidebar_state="expanded"
 )
@@ -134,9 +134,9 @@ st.markdown("""
 # --- UI ---
 # Sidebar navigation
 with st.sidebar:
-    st.title("AI Trader")
+    st.title("MCP Trader League")
     st.markdown("---")
-    page = st.radio("### Navigation", ["Dashboard", "About"], label_visibility="collapsed")
+    page = st.radio("### Navigation", ["Claude_1", "About"], label_visibility="collapsed")
 
 # Use fixed agent name - no selector needed
 agent = "default"
@@ -170,12 +170,13 @@ Once per U.S. trading day the agent completes a six-stage routine that ends with
 
 ## How the agent trades
 
-The agent is following this prompt:
+The agent is following this prompt: https://github.com/vlad-ds/ai-trader-frontend/blob/main/prompts/main.md
 
+The agent is an instance of Claude Sonnet 3.7 Thinking running in the Claude.ai app. I built a custom Model Context Protocol (MCP) to connect it to the Alpaca API.
 
 ## Ethics and safety
 
-Because the account is entirely virtual, no real capital is at risk, yet the agent is instructed to behave as if losses were consequential.  The setup keeps the experiment ethically clean while still providing a realistic environment for evaluating autonomous trading logic.
+Because the account is entirely virtual, no real capital is at risk. This is just a fun experiment. Please don't take it too seriously and don't follow the agent's trades!
 
 ## Contact
 
@@ -185,17 +186,19 @@ I'm Vlad, and I love building AI products. You can find me at [https://www.linke
     # Footer
     st.markdown("""
     <div class='footer'>
-        <span>© 2025 AI Trader</span>
+        <span>© 2025 MCP Trader League</span>
         <span>|</span>
         <span>Created by Vlad Gheorghe</span>
+        <span>|</span>
+        <span>Data from Alpaca Trading API</span>
     </div>
     """, unsafe_allow_html=True)
 
 # Conditional rendering based on selected page
-if page == "Dashboard":
+if page == "Claude_1":
     if account and positions is not None:
         # Header with last updated time
-        st.title("📊 Claude_1 | Dashboard")
+        st.title("📊 Claude_1")
         st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
         st.caption(f"Last updated: {last_updated.strftime('%Y-%m-%d %H:%M:%S')}")
         st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
@@ -389,10 +392,11 @@ if page == "Dashboard":
     
     # Footer
     st.markdown("""
-    <div class="footer">
-        <span>AI Trader Dashboard</span> • 
-        <span>Started with $100,000</span> • 
-        <span>Updated daily</span> • 
+    <div class='footer'>
+        <span>© 2025 MCP Trader League</span>
+        <span>|</span>
+        <span>Created by Vlad Gheorghe</span>
+        <span>|</span>
         <span>Data from Alpaca Trading API</span>
     </div>
     """, unsafe_allow_html=True)
