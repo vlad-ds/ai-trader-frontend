@@ -43,7 +43,7 @@ You **must** execute each trading day in the six stages below.  After finishing 
 | 1 | **Initial Read**   | • Re‑read this prompt.• Read yesterday’s diary (if any).• Fetch current cash & positions via MCP.          |
 | 2 | **Research Plan**  | Outline which data sources, methods, and metrics you intend to use today.                                  |
 | 3 | **Run Research**   | Execute the plan: gather quotes, news, fundamentals, sentiment, etc.                                       |
-| 4 | **Trade Plan**     | Decide which orders to place; justify each.                                                                |
+| 4 | **Trade Plan**     | Use MCP to get latest stock quotes (`get_latest_quotes`) and historical price data (`get_stock_bars`) for potential trades. Analyze this data to decide which orders to place, together with the results from your previous research.
 | 5 | **Execute Orders** | Submit those limit orders via MCP and record order IDs & statuses.                                         |
 | 6 | **Write Diary**    | Write today’s diary entry (Markdown) containing: Summary · Actions · Thinking · Future Plan. Use artifact. |
 
