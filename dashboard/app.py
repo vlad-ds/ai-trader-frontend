@@ -28,10 +28,21 @@ def load_snapshot_data(agent):
         return account, positions, last_updated
 
 @st.cache_data(ttl=86400) # refresh daily
-def load_diary(agent):
-    today = datetime.date.today().strftime("%Y-%m-%d")
-    fp = DATA_DIR/"diary"/f"{agent}_{today}.md"
-    return Path(fp).read_text() if fp.exists() else "*No entry yet*"
+def load_diary_entries(agent):
+    # Get all diary entries for the agent
+    diary_files = sorted((DATA_DIR/"diary").glob(f"{agent}_*.md"), reverse=True)
+    entries = []
+
+    for fp in diary_files:
+        try:
+            # Extract date from filename (agent_YYYY-MM-DD.md)
+            date_str = fp.stem.split('_', 1)[1]
+            content = Path(fp).read_text()
+            entries.append({"date": date_str, "content": content})
+        except Exception as e:
+            st.error(f"Error loading diary entry {fp}: {e}")
+
+    return entries
 
 def format_currency(val):
     if isinstance(val, (int, float)):
@@ -44,25 +55,6 @@ def highlight_profit_loss(val):
         return f'<span style="color:{color}">{format_currency(val)}</span>'
     return val
 
-def parse_diary_content(diary_content):
-    """Parse diary content extracting date and formatting the content"""
-    # Extract date from first line
-    date_match = re.search(r'Trading Diary: (.*)', diary_content)
-    date = date_match.group(1) if date_match else "Today"
-    
-    # Clean up the content - remove the first line (title)
-    content = re.sub(r'^# Trading Diary:.*?\n', '', diary_content, flags=re.MULTILINE)
-    
-    # Convert markdown to properly formatted HTML
-    # Format headers
-    content = re.sub(r'^## (.*?)$', r'<h3>\1</h3>', content, flags=re.MULTILINE)
-    content = re.sub(r'^### (.*?)$', r'<h4>\1</h4>', content, flags=re.MULTILINE)
-    
-    # Format bullet points
-    content = re.sub(r'^\* (.+)$', r'<li>\1</li>', content, flags=re.MULTILINE)
-    content = re.sub(r'(<li>.*?</li>\n)+', r'<ul>\g<0></ul>', content, flags=re.DOTALL)
-    
-    return date, content
 
 # Set page config first before any other Streamlit commands
 st.set_page_config(
@@ -91,29 +83,6 @@ st.markdown("""
         color: #4e8df5;
     }
     
-    /* Diary title styling */
-    .diary-header h2 {
-        margin-bottom: 1rem;
-    }
-    
-    .diary-details summary {
-        font-size: 1.2rem;
-        font-weight: bold;
-        cursor: pointer;
-        padding: 0.5rem 0;
-        color: #1E88E5;
-        transition: color 0.3s;
-    }
-    
-    .diary-details summary:hover {
-        color: #0D47A1;
-    }
-    
-    .diary-content {
-        margin-top: 1rem;
-        padding-left: 1rem;
-        border-left: 3px solid #E0E0E0;
-    }
     
     /* Footer styling */
     .footer {
@@ -370,25 +339,20 @@ if page == "Claude_1":
     st.markdown("---")
 
     # Diary section
-    st.markdown("<div class='diary-header'><h2>📝 Trading Diary</h2></div>", unsafe_allow_html=True)
-    diary_content = load_diary(agent)
-    
-    if diary_content and diary_content != "*No entry yet*":
-        date, formatted_content = parse_diary_content(diary_content)
-        
-        # Display as a single collapsible for the entire day with enhanced visibility
-        st.markdown(f"""
-        <div class="diary-container">
-            <details class="diary-details" open>
-                <summary>Trading Diary: {date}</summary>
-                <div class="diary-content">
-                    {formatted_content}
-                </div>
-            </details>
-        </div>
-        """, unsafe_allow_html=True)
+    st.header("📝 Trading Diary")
+    diary_entries = load_diary_entries(agent)
+
+    if diary_entries:
+        # Display all entries in reverse chronological order (already sorted in load_diary_entries)
+        for i, entry in enumerate(diary_entries):
+            date_str = entry["date"]
+            diary_content = entry["content"]
+
+            # Use Streamlit's built-in expander for collapsible content
+            with st.expander(f"Trading Diary: {date_str}", expanded=(i == 0)):
+                st.markdown(diary_content)
     else:
-        st.info("No diary entry for today.")
+        st.info("No diary entries found.")
     
     # Footer
     st.markdown("""
