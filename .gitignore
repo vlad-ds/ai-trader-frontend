@@ -175,3 +175,5 @@ cython_debug/
 
 # files
 **/.claude/settings.local.json
+
+.DS_Store
