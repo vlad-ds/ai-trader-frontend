@@ -174,4 +174,4 @@ cython_debug/
 .pypirc
 
 # files
-dashboard/data/snapshots
+**/.claude/settings.local.json

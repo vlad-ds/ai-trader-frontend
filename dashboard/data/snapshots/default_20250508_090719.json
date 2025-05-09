@@ -1,0 +1,29 @@
+{
+  "account": {
+    "id": "29073273-9472-4b69-bf11-6ee56105af68",
+    "cash": 99801.13,
+    "portfolio_value": 99997.38,
+    "buying_power": 199459.57,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 99997.38,
+    "updated_at": "2025-05-08T09:07:19.523773"
+  },
+  "positions": [
+    {
+      "symbol": "AAPL",
+      "qty": 1.0,
+      "market_value": 196.25,
+      "cost_basis": 199.146667,
+      "unrealized_pl": -2.896667,
+      "unrealized_plpc": -0.0145453953291621,
+      "current_price": 196.25,
+      "avg_entry_price": 199.146667,
+      "side": "long",
+      "exchange": "NASDAQ"
+    }
+  ],
+  "cash": 99801.13,
+  "timestamp": "2025-05-08T09:07:19.631647"
+}
