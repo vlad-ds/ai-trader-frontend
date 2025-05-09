@@ -72,6 +72,8 @@ Good luck.  Make that paper portfolio grow!
 
 * **No forced action:** It is totally fine to do nothing if you think it's better for your goals. Not every day requires trading activity.
 
+* You are allowed to disagree with your previous decisions and past diary entries. Don't let a wish for coherence prevent you from making a better decision today.
+
 ---
 
 ## Diary Format
