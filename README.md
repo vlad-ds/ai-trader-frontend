@@ -53,6 +53,23 @@ A Streamlit dashboard application for visualizing trading account information an
    python positions_job.py
    ```
 
+3. Deploy to Streamlit Cloud:
+   - Connect your GitHub repository to Streamlit Cloud
+   - Set the main file path as `dashboard/app.py`
+   - Add your environment variables (ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_PAPER)
+
+4. Automated Data Updates:
+   This project includes a GitHub Actions workflow that automatically updates portfolio data every 15 minutes.
+
+   To set up automated updates:
+   - Push this repository to GitHub
+   - Add your Alpaca API keys as GitHub secrets:
+     - ALPACA_API_KEY
+     - ALPACA_SECRET_KEY
+     - ALPACA_PAPER (optional, defaults to true)
+   - The workflow will run every 15 minutes, fetch new data, and commit it to your repository
+   - Streamlit Cloud will automatically use the latest data
+
 ## 📁 Project Structure
 
 - `dashboard/app.py` - Main Streamlit application

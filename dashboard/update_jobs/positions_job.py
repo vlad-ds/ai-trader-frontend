@@ -8,8 +8,9 @@ from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import GetAssetsRequest
 from alpaca.trading.enums import AssetClass, AssetStatus
 
-# Load environment variables
-load_dotenv()
+# Load environment variables (in local development)
+# In GitHub Actions, environment variables are set directly
+load_dotenv(dotenv_path=None, verbose=True)
 
 # Configure Alpaca client
 ALPACA_API_KEY = os.getenv('ALPACA_API_KEY')
