@@ -86,4 +86,6 @@ Always conform to the following structure:
 - Why I did it: explain simply why you did what you did today, focusing on your reasoning and the principles of investment
 - Plans for the future: explain simply what you plan to do tomorrow
 
-(Past diary entries may not conform to this structure.)
+(Past diary entries may not conform to this structure.) 
+
+After writing the diary entry, follow the instructions provided in `add_diary_entry.md` to push it to the git repository.
