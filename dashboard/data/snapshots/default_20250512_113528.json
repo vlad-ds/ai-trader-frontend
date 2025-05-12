@@ -1,0 +1,41 @@
+{
+  "account": {
+    "id": "d08df475-4646-4098-bfc6-6d2613252499",
+    "cash": 89982.23,
+    "portfolio_value": 99696.84,
+    "buying_power": 189679.07,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 99696.84,
+    "updated_at": "2025-05-12T11:35:28.333058"
+  },
+  "positions": [
+    {
+      "symbol": "KO",
+      "qty": 99.0,
+      "market_value": 6915.15,
+      "cost_basis": 7053.75,
+      "unrealized_pl": -138.6,
+      "unrealized_plpc": -0.0196491228070175,
+      "current_price": 69.85,
+      "avg_entry_price": 71.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "MRK",
+      "qty": 38.0,
+      "market_value": 2799.46,
+      "cost_basis": 2964.0,
+      "unrealized_pl": -164.54,
+      "unrealized_plpc": -0.0555128205128205,
+      "current_price": 73.67,
+      "avg_entry_price": 78.0,
+      "side": "long",
+      "exchange": "NYSE"
+    }
+  ],
+  "cash": 89982.23,
+  "timestamp": "2025-05-12T11:35:28.341772"
+}
