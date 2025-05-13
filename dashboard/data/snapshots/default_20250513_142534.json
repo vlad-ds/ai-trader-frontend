@@ -1,0 +1,65 @@
+{
+  "account": {
+    "id": "d08df475-4646-4098-bfc6-6d2613252499",
+    "cash": 79938.47,
+    "portfolio_value": 99780.54,
+    "buying_power": 179719.01,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 99780.54,
+    "updated_at": "2025-05-13T14:25:34.589770"
+  },
+  "positions": [
+    {
+      "symbol": "KO",
+      "qty": 99.0,
+      "market_value": 6862.68,
+      "cost_basis": 7053.75,
+      "unrealized_pl": -191.07,
+      "unrealized_plpc": -0.0270877192982456,
+      "current_price": 69.32,
+      "avg_entry_price": 71.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "MRK",
+      "qty": 38.0,
+      "market_value": 2952.79,
+      "cost_basis": 2964.0,
+      "unrealized_pl": -11.21,
+      "unrealized_plpc": -0.0037820512820513,
+      "current_price": 77.705,
+      "avg_entry_price": 78.0,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "PFE",
+      "qty": 220.0,
+      "market_value": 4995.1,
+      "cost_basis": 5005.0,
+      "unrealized_pl": -9.9,
+      "unrealized_plpc": -0.001978021978022,
+      "current_price": 22.705,
+      "avg_entry_price": 22.75,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "UGI",
+      "qty": 145.0,
+      "market_value": 5031.5,
+      "cost_basis": 5038.75,
+      "unrealized_pl": -7.25,
+      "unrealized_plpc": -0.0014388489208633,
+      "current_price": 34.7,
+      "avg_entry_price": 34.75,
+      "side": "long",
+      "exchange": "NYSE"
+    }
+  ],
+  "cash": 79938.47,
+  "timestamp": "2025-05-13T14:25:34.601906"
+}
