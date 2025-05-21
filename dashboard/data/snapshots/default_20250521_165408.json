@@ -1,0 +1,113 @@
+{
+  "account": {
+    "id": "d08df475-4646-4098-bfc6-6d2613252499",
+    "cash": 56719.23,
+    "portfolio_value": 100889.7,
+    "buying_power": 157608.93,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 100889.7,
+    "updated_at": "2025-05-21T16:54:08.532691"
+  },
+  "positions": [
+    {
+      "symbol": "JNJ",
+      "qty": 34.0,
+      "market_value": 5240.59,
+      "cost_basis": 5060.85,
+      "unrealized_pl": 179.74,
+      "unrealized_plpc": 0.0355157730420779,
+      "current_price": 154.135,
+      "avg_entry_price": 148.848529,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "KO",
+      "qty": 99.0,
+      "market_value": 7113.645,
+      "cost_basis": 7053.75,
+      "unrealized_pl": 59.895,
+      "unrealized_plpc": 0.0084912280701754,
+      "current_price": 71.855,
+      "avg_entry_price": 71.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "LMT",
+      "qty": 11.0,
+      "market_value": 5208.06,
+      "cost_basis": 5121.27,
+      "unrealized_pl": 86.79,
+      "unrealized_plpc": 0.0169469682324892,
+      "current_price": 473.46,
+      "avg_entry_price": 465.57,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "MRK",
+      "qty": 38.0,
+      "market_value": 2965.672,
+      "cost_basis": 2964.0,
+      "unrealized_pl": 1.672,
+      "unrealized_plpc": 0.0005641025641026,
+      "current_price": 78.044,
+      "avg_entry_price": 78.0,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "PFE",
+      "qty": 220.0,
+      "market_value": 5149.1,
+      "cost_basis": 5005.0,
+      "unrealized_pl": 144.1,
+      "unrealized_plpc": 0.0287912087912088,
+      "current_price": 23.405,
+      "avg_entry_price": 22.75,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "PGR",
+      "qty": 20.0,
+      "market_value": 5645.4,
+      "cost_basis": 5556.0,
+      "unrealized_pl": 89.4,
+      "unrealized_plpc": 0.0160907127429806,
+      "current_price": 282.27,
+      "avg_entry_price": 277.8,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "UGI",
+      "qty": 145.0,
+      "market_value": 5162.0,
+      "cost_basis": 5038.75,
+      "unrealized_pl": 123.25,
+      "unrealized_plpc": 0.0244604316546763,
+      "current_price": 35.6,
+      "avg_entry_price": 34.75,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "VZ",
+      "qty": 175.0,
+      "market_value": 7686.0,
+      "cost_basis": 7420.0,
+      "unrealized_pl": 266.0,
+      "unrealized_plpc": 0.0358490566037736,
+      "current_price": 43.92,
+      "avg_entry_price": 42.4,
+      "side": "long",
+      "exchange": "NYSE"
+    }
+  ],
+  "cash": 56719.23,
+  "timestamp": "2025-05-21T16:54:08.551428"
+}
