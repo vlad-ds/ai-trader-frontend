@@ -1,0 +1,161 @@
+{
+  "account": {
+    "id": "d08df475-4646-4098-bfc6-6d2613252499",
+    "cash": 10372.79,
+    "portfolio_value": 100573.3,
+    "buying_power": 107717.33,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 100573.3,
+    "updated_at": "2025-05-27T14:07:22.720570"
+  },
+  "positions": [
+    {
+      "symbol": "ALB",
+      "qty": 350.0,
+      "market_value": 19986.75,
+      "cost_basis": 20037.5,
+      "unrealized_pl": -50.75,
+      "unrealized_plpc": -0.0025327510917031,
+      "current_price": 57.105,
+      "avg_entry_price": 57.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "JNJ",
+      "qty": 34.0,
+      "market_value": 5194.18,
+      "cost_basis": 5060.85,
+      "unrealized_pl": 133.33,
+      "unrealized_plpc": 0.0263453767647727,
+      "current_price": 152.77,
+      "avg_entry_price": 148.848529,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "KO",
+      "qty": 99.0,
+      "market_value": 7118.595,
+      "cost_basis": 7053.75,
+      "unrealized_pl": 64.845,
+      "unrealized_plpc": 0.0091929824561404,
+      "current_price": 71.905,
+      "avg_entry_price": 71.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "LMT",
+      "qty": 11.0,
+      "market_value": 5173.3,
+      "cost_basis": 5121.27,
+      "unrealized_pl": 52.03,
+      "unrealized_plpc": 0.0101595893206177,
+      "current_price": 470.3,
+      "avg_entry_price": 465.57,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "MRK",
+      "qty": 108.0,
+      "market_value": 8352.72,
+      "cost_basis": 8377.21,
+      "unrealized_pl": -24.49,
+      "unrealized_plpc": -0.0029234076739153,
+      "current_price": 77.34,
+      "avg_entry_price": 77.566759,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "O",
+      "qty": 180.0,
+      "market_value": 10044.9,
+      "cost_basis": 9945.0,
+      "unrealized_pl": 99.9,
+      "unrealized_plpc": 0.0100452488687783,
+      "current_price": 55.805,
+      "avg_entry_price": 55.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "PFE",
+      "qty": 220.0,
+      "market_value": 5164.016,
+      "cost_basis": 5005.0,
+      "unrealized_pl": 159.016,
+      "unrealized_plpc": 0.0317714285714286,
+      "current_price": 23.4728,
+      "avg_entry_price": 22.75,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "PGR",
+      "qty": 20.0,
+      "market_value": 5507.2,
+      "cost_basis": 5556.0,
+      "unrealized_pl": -48.8,
+      "unrealized_plpc": -0.0087832973362131,
+      "current_price": 275.36,
+      "avg_entry_price": 277.8,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "TGT",
+      "qty": 15.0,
+      "market_value": 1426.8,
+      "cost_basis": 1417.5,
+      "unrealized_pl": 9.3,
+      "unrealized_plpc": 0.0065608465608466,
+      "current_price": 95.12,
+      "avg_entry_price": 94.5,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "TROW",
+      "qty": 100.0,
+      "market_value": 9410.0,
+      "cost_basis": 9547.0,
+      "unrealized_pl": -137.0,
+      "unrealized_plpc": -0.0143500576097203,
+      "current_price": 94.1,
+      "avg_entry_price": 95.47,
+      "side": "long",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "UGI",
+      "qty": 145.0,
+      "market_value": 5211.3,
+      "cost_basis": 5038.75,
+      "unrealized_pl": 172.55,
+      "unrealized_plpc": 0.0342446043165468,
+      "current_price": 35.94,
+      "avg_entry_price": 34.75,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "VZ",
+      "qty": 175.0,
+      "market_value": 7610.75,
+      "cost_basis": 7420.0,
+      "unrealized_pl": 190.75,
+      "unrealized_plpc": 0.0257075471698113,
+      "current_price": 43.49,
+      "avg_entry_price": 42.4,
+      "side": "long",
+      "exchange": "NYSE"
+    }
+  ],
+  "cash": 10372.79,
+  "timestamp": "2025-05-27T14:07:22.732772"
+}
