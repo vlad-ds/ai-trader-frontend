@@ -1,0 +1,161 @@
+{
+  "account": {
+    "id": "d08df475-4646-4098-bfc6-6d2613252499",
+    "cash": 20320.14,
+    "portfolio_value": 102139.79,
+    "buying_power": 115103.39,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 102139.79,
+    "updated_at": "2025-06-04T17:38:13.125157"
+  },
+  "positions": [
+    {
+      "symbol": "ALB",
+      "qty": 175.0,
+      "market_value": 10451.0,
+      "cost_basis": 10018.75,
+      "unrealized_pl": 432.25,
+      "unrealized_plpc": 0.0431441048034934,
+      "current_price": 59.72,
+      "avg_entry_price": 57.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "JNJ",
+      "qty": 34.0,
+      "market_value": 5239.4,
+      "cost_basis": 5060.85,
+      "unrealized_pl": 178.55,
+      "unrealized_plpc": 0.0352806346759932,
+      "current_price": 154.1,
+      "avg_entry_price": 148.848529,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "KO",
+      "qty": 99.0,
+      "market_value": 7101.765,
+      "cost_basis": 7053.75,
+      "unrealized_pl": 48.015,
+      "unrealized_plpc": 0.0068070175438596,
+      "current_price": 71.735,
+      "avg_entry_price": 71.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "LMT",
+      "qty": 11.0,
+      "market_value": 5343.3875,
+      "cost_basis": 5121.27,
+      "unrealized_pl": 222.1175,
+      "unrealized_plpc": 0.0433715660373306,
+      "current_price": 485.7625,
+      "avg_entry_price": 465.57,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "MRK",
+      "qty": 108.0,
+      "market_value": 8499.6,
+      "cost_basis": 8377.21,
+      "unrealized_pl": 122.39,
+      "unrealized_plpc": 0.0146098760804612,
+      "current_price": 78.7,
+      "avg_entry_price": 77.566759,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "O",
+      "qty": 180.0,
+      "market_value": 10104.3,
+      "cost_basis": 9945.0,
+      "unrealized_pl": 159.3,
+      "unrealized_plpc": 0.0160180995475113,
+      "current_price": 56.135,
+      "avg_entry_price": 55.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "PFE",
+      "qty": 155.0,
+      "market_value": 3640.175,
+      "cost_basis": 3526.25,
+      "unrealized_pl": 113.925,
+      "unrealized_plpc": 0.0323076923076923,
+      "current_price": 23.485,
+      "avg_entry_price": 22.75,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "PGR",
+      "qty": 27.0,
+      "market_value": 7692.3,
+      "cost_basis": 7549.8,
+      "unrealized_pl": 142.5,
+      "unrealized_plpc": 0.0188746721767464,
+      "current_price": 284.9,
+      "avg_entry_price": 279.622222,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "TROW",
+      "qty": 100.0,
+      "market_value": 9395.0,
+      "cost_basis": 9547.0,
+      "unrealized_pl": -152.0,
+      "unrealized_plpc": -0.0159212318005656,
+      "current_price": 93.95,
+      "avg_entry_price": 95.47,
+      "side": "long",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "UGI",
+      "qty": 145.0,
+      "market_value": 5212.75,
+      "cost_basis": 5038.75,
+      "unrealized_pl": 174.0,
+      "unrealized_plpc": 0.0345323741007194,
+      "current_price": 35.95,
+      "avg_entry_price": 34.75,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "VZ",
+      "qty": 175.0,
+      "market_value": 7640.5,
+      "cost_basis": 7420.0,
+      "unrealized_pl": 220.5,
+      "unrealized_plpc": 0.0297169811320755,
+      "current_price": 43.66,
+      "avg_entry_price": 42.4,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "WMT",
+      "qty": 15.0,
+      "market_value": 1499.475,
+      "cost_basis": 1458.75,
+      "unrealized_pl": 40.725,
+      "unrealized_plpc": 0.0279177377892031,
+      "current_price": 99.965,
+      "avg_entry_price": 97.25,
+      "side": "long",
+      "exchange": "NYSE"
+    }
+  ],
+  "cash": 20320.14,
+  "timestamp": "2025-06-04T17:38:13.133632"
+}
