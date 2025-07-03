@@ -1,0 +1,173 @@
+{
+  "account": {
+    "id": "d08df475-4646-4098-bfc6-6d2613252499",
+    "cash": 16425.08,
+    "portfolio_value": 103828.77,
+    "buying_power": 120253.85,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 103828.77,
+    "updated_at": "2025-07-03T16:55:05.242342"
+  },
+  "positions": [
+    {
+      "symbol": "ALB",
+      "qty": 175.0,
+      "market_value": 11743.375,
+      "cost_basis": 10018.75,
+      "unrealized_pl": 1724.625,
+      "unrealized_plpc": 0.1721397379912664,
+      "current_price": 67.105,
+      "avg_entry_price": 57.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "JNJ",
+      "qty": 34.0,
+      "market_value": 5309.1,
+      "cost_basis": 5060.85,
+      "unrealized_pl": 248.25,
+      "unrealized_plpc": 0.0490530246895284,
+      "current_price": 156.15,
+      "avg_entry_price": 148.848529,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "KO",
+      "qty": 99.0,
+      "market_value": 7050.285,
+      "cost_basis": 7053.75,
+      "unrealized_pl": -3.465,
+      "unrealized_plpc": -0.0004912280701754,
+      "current_price": 71.215,
+      "avg_entry_price": 71.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "LMT",
+      "qty": 16.0,
+      "market_value": 7389.44,
+      "cost_basis": 7540.72,
+      "unrealized_pl": -151.28,
+      "unrealized_plpc": -0.0200617447670779,
+      "current_price": 461.84,
+      "avg_entry_price": 471.295,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "MRK",
+      "qty": 108.0,
+      "market_value": 8754.48,
+      "cost_basis": 8377.21,
+      "unrealized_pl": 377.27,
+      "unrealized_plpc": 0.0450352802424674,
+      "current_price": 81.06,
+      "avg_entry_price": 77.566759,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "NEE",
+      "qty": 21.0,
+      "market_value": 1555.89,
+      "cost_basis": 1475.25,
+      "unrealized_pl": 80.64,
+      "unrealized_plpc": 0.0546619217081851,
+      "current_price": 74.09,
+      "avg_entry_price": 70.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "O",
+      "qty": 180.0,
+      "market_value": 10384.2,
+      "cost_basis": 9945.0,
+      "unrealized_pl": 439.2,
+      "unrealized_plpc": 0.0441628959276018,
+      "current_price": 57.69,
+      "avg_entry_price": 55.25,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "PFE",
+      "qty": 155.0,
+      "market_value": 3942.425,
+      "cost_basis": 3526.25,
+      "unrealized_pl": 416.175,
+      "unrealized_plpc": 0.118021978021978,
+      "current_price": 25.435,
+      "avg_entry_price": 22.75,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "PGR",
+      "qty": 27.0,
+      "market_value": 7052.67,
+      "cost_basis": 7549.8,
+      "unrealized_pl": -497.13,
+      "unrealized_plpc": -0.0658467773980768,
+      "current_price": 261.21,
+      "avg_entry_price": 279.622222,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "TROW",
+      "qty": 100.0,
+      "market_value": 9994.0,
+      "cost_basis": 9547.0,
+      "unrealized_pl": 447.0,
+      "unrealized_plpc": 0.0468209908871897,
+      "current_price": 99.94,
+      "avg_entry_price": 95.47,
+      "side": "long",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "UGI",
+      "qty": 145.0,
+      "market_value": 5124.3,
+      "cost_basis": 5038.75,
+      "unrealized_pl": 85.55,
+      "unrealized_plpc": 0.0169784172661871,
+      "current_price": 35.34,
+      "avg_entry_price": 34.75,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "VZ",
+      "qty": 175.0,
+      "market_value": 7627.375,
+      "cost_basis": 7420.0,
+      "unrealized_pl": 207.375,
+      "unrealized_plpc": 0.0279481132075472,
+      "current_price": 43.585,
+      "avg_entry_price": 42.4,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "WMT",
+      "qty": 15.0,
+      "market_value": 1476.15,
+      "cost_basis": 1458.75,
+      "unrealized_pl": 17.4,
+      "unrealized_plpc": 0.0119280205655527,
+      "current_price": 98.41,
+      "avg_entry_price": 97.25,
+      "side": "long",
+      "exchange": "NYSE"
+    }
+  ],
+  "cash": 16425.08,
+  "timestamp": "2025-07-03T16:55:05.256980"
+}
